@@ -1,2 +1,2 @@
-[[plugins]]
-  package = "./plugin"
+[build]
+  ignore = "git log -1 --pretty=%B | grep mateusz"
